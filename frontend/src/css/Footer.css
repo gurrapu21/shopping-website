@@ -1,0 +1,27 @@
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.company-name {
+    font-size: 1.5em;
+    color: white;
+}
+
+.content-info {
+    color: white;
+}

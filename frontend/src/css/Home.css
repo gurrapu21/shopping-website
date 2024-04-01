@@ -1,0 +1,270 @@
+.home-container {
+    display: flex;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+    /* background-color: #f2f2f2; */
+    animation: slideInLeft 1s ease-in-out;
+}
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.title-category {
+    padding-bottom: 10px;
+    color: #333;
+}
+
+.radio-buttons {
+    display: flex;
+    flex-direction: column;
+    animation: slideInRight 1s ease-in-out;
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.checkbox-buttons > div {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.display-products {
+    display: grid;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.search {
+    padding-bottom: 20px;
+    animation: slideInUp 1s ease-in-out;
+}
+
+@keyframes slideInUp {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+}
+
+/* New colors added */
+
+/* .home-container {
+    background-color: #f9f9f9;
+}
+
+.categories {
+    background-color: #eaeaea;
+}
+
+.title-category {
+    color: #555;
+}
+
+.search {
+    background-color: #f2f2f2;
+}
+
+.products {
+    background-color: #fff;
+} */
+
+
+.home-container {
+    display: flex;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+    /* background-color: #f2f2f2; */
+    animation: slideInLeft 1s ease-in-out;
+}
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.title-category {
+    padding-bottom: 10px;
+    color: #333;
+}
+
+.radio-buttons {
+    display: flex;
+    flex-direction: column;
+    animation: slideInRight 1s ease-in-out;
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.checkbox-buttons > div {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.display-products {
+    display: grid;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.search {
+    padding-bottom: 20px;
+    animation: slideInUp 1s ease-in-out;
+}
+
+@keyframes slideInUp {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(0); }
+}
+
+@keyframes slideInUp {
+    0% { transform: translateY(100%); }
+    100% { transform: translateY(0); }
+}
+
+
+.home-contaner {
+    display: flex;
+    padding: 20px;
+
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+    
+}
+
+.title-category {
+    padding-bottom: 10px;
+}
+
+.radio-bottons {
+    display: flex;
+    flex-direction: column;
+}
+.checkbox-buttons > div {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.display-products {
+    display: grid;
+}
+
+.search {
+    padding-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
